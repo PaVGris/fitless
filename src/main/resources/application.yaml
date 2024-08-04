@@ -12,7 +12,12 @@ spring:
   flyway:
     baselineOnMigrate: true
 
+  mvc.view.prefix: /WEB-INF/jsp/
+  mvc.view.suffix: .jsp
 
 
 server:
   port: 8090
+
+bezkoder.app.jwtSecret: ======================BezKoder=Spring===========================
+bezkoder.app.jwtExpirationMs: 86400000
